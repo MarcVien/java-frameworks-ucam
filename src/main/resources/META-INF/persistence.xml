@@ -4,7 +4,6 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>cm.java.jpa.entidades.Livro</class>
     <class>cm.java.jpa.entidades.Pessoa</class>
-    <class>cm.java.jpa.entidades.Endereco</class>
     <class>cm.java.jpa.entidades.NoticiaAgrupado</class>
     <class>cm.java.jpa.entidades.NoticiaClasseId</class>
     <class>cm.java.jpa.entidades.TrilhaMusica</class>
@@ -14,6 +13,9 @@
     <class>cm.java.jpa.entidades.ConsumidorPorMetodos</class>
     <class>cm.java.jpa.entidades.LivroEtiqueta</class>
     <class>cm.java.jpa.entidades.ConsumidorComEndereco</class>
+    <class>cm.java.jpa.entidades.ConsumidorOneToOne</class>
+    <class>cm.java.jpa.entidades.EnderecoEnt</class>
+    <class>cm.java.jpa.entidades.Endereco</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="one"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
@@ -32,7 +34,6 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>cm.java.jpa.entidades.Livro</class>
     <class>cm.java.jpa.entidades.Pessoa</class>
-    <class>cm.java.jpa.entidades.Endereco</class>
     <class>cm.java.jpa.entidades.NoticiaAgrupado</class>
     <class>cm.java.jpa.entidades.NoticiaClasseId</class>
     <class>cm.java.jpa.entidades.TrilhaMusica</class>
@@ -42,6 +43,9 @@
     <class>cm.java.jpa.entidades.ConsumidorPorMetodos</class>
     <class>cm.java.jpa.entidades.LivroEtiqueta</class>
     <class>cm.java.jpa.entidades.ConsumidorComEndereco</class>
+    <class>cm.java.jpa.entidades.ConsumidorOneToOne</class>
+    <class>cm.java.jpa.entidades.EnderecoEnt</class>
+    <class>cm.java.jpa.entidades.Endereco</class>
     <properties>
       <property name="eclipselink.canonicalmodel.subpackage" value="two"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>

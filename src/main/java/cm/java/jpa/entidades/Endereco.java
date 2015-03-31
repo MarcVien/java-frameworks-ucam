@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "t_endereco")
+@Table(name = "t_endereco_2")
 @SecondaryTables({
         @SecondaryTable(name = "t_cidade"),
         @SecondaryTable(name = "t_pais")
@@ -16,6 +16,7 @@ public class Endereco {
   // ======================================
 
   @Id
+  @GeneratedValue
   private Long id;
   private String rua1;
   private String rua2;
